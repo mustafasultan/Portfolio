@@ -1,0 +1,71 @@
+$green: #81a594;
+$cream: #e6e6dc;
+$brown: #583833;
+
+/* _colours.scss begins */
+/* General */
+p {color: $brown;}
+h1 {color: $brown;}
+h3 {color:$cream;}
+
+
+/* Navigation */
+nav {background-color: $green;}
+nav li {color:$cream;}
+nav a{color: $cream;}
+
+/* Flex Slider */
+.flex-caption a {color: $brown !important;}
+
+/* Main pages */
+
+#menulink	{background-color: $cream;}
+#about 		{background-color: $cream;}
+#why 		{background-color: $green;}
+#portfolio 	{background-color:$cream;}
+#contact 	{background-color:$green;}
+#portfolio1 {background-color:$cream;}
+#portfolio3 {background-color:$cream;}
+#portfolio2 {background-color:$green;}
+#portfolio4 {background-color:$green;}
+#backtotop	{background-color: $cream;}
+#mobilenav	{background-color: $cream;}
+
+/* Main pages text colour */
+
+#portfolio1 p	{color:$brown;}
+#portfolio1 h2	{color: $brown;}
+
+#portfolio2 p 	{color: $cream;}
+#portfolio2 h2	{color: $cream;}
+
+#portfolio3 p	{color: $brown;}
+#portfolio3 h2	{color:$brown;}
+
+#portfolio4 p	{color:$cream;}
+#portfolio4 h2	{color: $cream;}
+
+#portfoliotitle {color:$green;}
+
+#why p {color: $cream;}
+#why h1 {color: $cream;}
+
+.whypickme {color: $cream;}
+/* Links */
+
+a{text-decoration: none; color:inherit;}
+
+#portfolio1 a, #portfolio3 a {color: lighten($brown, 20);}
+
+#portfolio2 a, #portfolio4 a {color: darken($cream, 20);}
+
+
+/* Name at top */
+.freelancewebdesigner {color: $brown;}
+.bigtitle {color: $brown;}
+
+/* Mobile Navigation */
+#mobilenav {color: $brown;}
+.green {background-color: $green; color:$cream;}
+.cream {background-color: $cream }
+/* _colours.scss ends */

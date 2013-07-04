@@ -1,0 +1,66 @@
+/* _structure.scss begins */
+body {margin: 0 auto;}
+
+.container {margin:0 auto; width: 100%;}
+
+
+/* Main Pages */
+
+#about 		{padding-top: 8%; padding-bottom: 5%;}
+#why 		{padding-top: 5%; padding-bottom: 5%;}
+#portfolio 	{padding-top: 5%; padding-bottom: 5%;}
+#contact 	{padding-top: 5%; padding-bottom: 5%;}
+#portfolio1 {padding-top: 5%; padding-bottom: 5%;}
+#portfolio2 {padding-top: 5%; padding-bottom: 5%;}
+#portfolio3 {padding-top: 5%; padding-bottom: 5%;}
+#portfolio4 {padding-top: 5%; padding-bottom: 5%;}
+#skills		{padding-top: 5%; padding-bottom: 5%;}
+#backtotop	{padding-top: 5%; padding-bottom: 5%;}
+
+#contact, #about, #why, #portfolio, #portfolio1, #portfolio2, #portfolio3, #portfolio4, #skills, #backtotop #mobilenav {
+display: block; margin: 0 auto; width: 100%; height: auto;}
+
+.whypickme {margin:0 auto;max-width: 900px;width: 80%;}
+
+
+.backtotop {width:80%; max-width: 100px; margin: 0 auto; display:block;}
+
+/* Portfolio Slideshow */
+
+
+#slidercontainer {margin: 0 auto;max-width: 595px;max-height: 650px; width: 80%;}
+
+
+
+
+/* Portfolio */
+.portfoliocontainer {width: 80%;height:auto;margin: 0 auto;display: block;overflow: hidden;max-width: 1000px;}
+
+.portfolioimage{ float:left; width: 40%; padding:0; }
+
+.portfoliotext {float:right; width: 40%; padding:0;}
+
+.portfolioimageclass {width: 100%;max-width: 400px;}
+
+/* 3 column images at top */
+.aboutimages, .aboutimagesheart, .aboutimageswheel {
+	width: 100%;
+	max-width: 150px;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: 10%;
+}
+
+/* Name at top */
+#bigtitle {display: block; margin-right: auto; margin-left: auto; padding-right: auto; padding-left: auto; height: auto; margin-top: 5% ; margin-bottom: 5%;}
+
+/* Column at top */
+#why p {margin-top: 4%;}
+
+
+.left {margin-top: -9%; text-align: left; margin-left: 2%;}
+
+
+
+/* _structure.scss ends */
+

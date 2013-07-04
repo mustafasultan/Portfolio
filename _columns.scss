@@ -1,0 +1,57 @@
+/* _columns.scss begins */
+/*  SECTIONS  */
+.section {
+	clear: both;
+	width: 80%;
+	max-width: 1000px;
+
+	margin: 0 auto;
+
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 2% 0 2% 1.6%;
+
+}
+.col:first-child { margin-left: 0; }
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+	width: 100%;
+}
+.span_2_of_3 {
+	width: 66.1%;
+}
+.span_1_of_3 {
+	width: 32.2%;
+}
+/*  GROUPING  */
+.group:before,
+.group:after {
+	content:"";
+	display:table;
+}
+.group:after {
+	clear:both;
+}
+
+
+@media only screen and (max-width: 767px) {
+	.span_3_of_3 {
+		width: 100%;
+	}
+	.span_2_of_3 {
+		width: 100%;
+	}
+	.span_1_of_3 {
+		width: 100%;
+	}
+	why p {
+		text-align: center;
+	}
+
+}
+/* _columns.scss ends */

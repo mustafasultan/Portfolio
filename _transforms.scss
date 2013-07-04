@@ -1,0 +1,49 @@
+/* _transforms.scss begins */
+.Email .Facebook .Twitter .backtotop  {
+  -webkit-transition:all .5s ease-out;
+  -moz-transition:all .5s ease-out;
+  -ms-transition:all .5s ease-out;
+  -o-transition:all .5s ease-out;
+  transition:all .5s ease-out;
+  }
+
+#contact .Email:hover, #contact .Facebook:hover,#contact .Twitter:hover, .backtotop:hover   {
+  -webkit-transform:translate(0px,10px);
+  -moz-transform:translate(0px,-10px);
+  -ms-transform:translate(0px,-10px);
+  -o-transform:translate(0px,10px);
+  transform:translate(0px,-10px);
+  }
+
+
+  .aboutimageswheel:hover {
+-webkit-animation-play-state:running;
+-moz-animation-play-state:running;
+-o-animation-play-state:running;
+
+
+
+-webkit-animation: cssAnimation 0.9081s 16 ease-in-out;
+-moz-animation: cssAnimation 0.9081s 16 ease-in-out;
+-o-animation: cssAnimation 0.9081s 16 ease-in-out;
+}
+@-webkit-keyframes cssAnimation {
+from { -webkit-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); }
+to { -webkit-transform: rotate(3600000000deg) scale(1) skew(0deg) translate(0px); }
+}
+@-moz-keyframes cssAnimation {
+from { -moz-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); }
+to { -moz-transform: rotate(360000000000deg) scale(1) skew(0deg) translate(0px); }
+}
+@-o-keyframes cssAnimation {
+from { -o-transform: rotate(0deg) scale(1) skew(0deg) translate(0px); }
+to { -o-transform: rotate(36000000000deg) scale(1) skew(0deg) translate(0px); }
+
+
+
+.aboutimageswheel {
+	-webkit-animation-play-state:paused;
+    -webkit-animation: moveSlideshow 10s linear infinite;
+}
+}
+/* _transforms.scss end */
