@@ -1,0 +1,45 @@
+$title: 'futura-pt', Arial, sans-serif;
+$body: 'myriad-pro', Times, Arial, sans-serif;
+/* _fonts.scss begins */
+
+/* Main pages */
+p {font-family: $body; text-align: left; font-size: 1em; line-height: 1.5em;}
+h1 {font-family: $title; margin: 0; text-align: center; font-size: 1em;}
+h2 {font-family: $title; text-align: center; margin-bottom: 2%;}
+*{text-transform: uppercase;}
+.gridwriting, .portfoliotext p, .portfoliotext a {text-transform: none;}
+
+h1, h2, h3 {font-family: $title;}
+
+#why p {text-align: left;}
+#contact p {font-size: 1.2em;}
+#social p {line-height: 2.5em;}
+
+.smallheadings {font-size: 1em !important; letter-spacing: 1px; white-space: nowrap;}
+h3 {font-size: 1em !important; letter-spacing: 1px; white-space: nowrap; font-family: $title; text-align: center;}
+
+address {font-style: normal;}
+
+.gridwriting, .portfoliotext p, .portfoliotext a {font-family: $body; font-size: 1.1em;}
+
+.whypickme {font-size: 1.1em !important; line-height:2.5em;}
+
+/* Name at top */
+#bigtitle {text-shadow: -0.05em 0.05em 0em #81a594; font-size: 8em; }
+
+.freelancewebdesigner, .flex-caption, .whypickme {font-family: $title; text-align: center;}
+
+/* Flex caption */
+.flex-caption {margin-top: 2%; font-size: 1.1em;}
+
+/* Portfolio headings */
+#porfoliotext h2 {font-size: 1.1em !important;}
+
+.freelancewebdesigner {font-size: 1.1em;}
+
+/* Navigation */
+nav a {font: {family: $title; size: 1em;}}
+#mobilenav a {font-family: $title; font-size: 1em;}
+
+a {text-transform: none;}
+/* _fonts.scss ends */

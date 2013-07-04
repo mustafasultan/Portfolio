@@ -1,0 +1,55 @@
+/* _navigation.scss begins */
+nav {
+	position: fixed;
+	z-index: 99999;
+	display: inline;
+	margin-top: 0;
+	margin-right: auto;
+    margin-left: auto;
+    padding: 0 auto;
+	padding-top: auto;
+	padding-bottom: auto;
+	width: 100%;
+	height: 2.5em;
+	list-style:none;
+    text-align: left;
+    text-decoration: none;
+}
+
+nav {
+	a {
+	display:inline-block;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    padding-right: 1%;
+    padding-left:1%;}
+
+	li {
+	display:inline;
+    list-style: none;
+    text-decoration: none;
+	}
+
+	ul {
+	vertical-align: center;
+	margin-top: 0.75em;
+	padding-left: 3%;
+	}
+
+}
+
+/* Mobile Navigation */
+#mobilenav {
+	margin: 0 auto;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+	text-decoration: none;
+}
+
+#mobilenav li {padding-top: 0.5em; padding-bottom: 0.5em;}
+
+/* Borders */
+#mobilenav li {}
+/* _navigation.scss ends */

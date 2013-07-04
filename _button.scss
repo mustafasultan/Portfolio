@@ -1,0 +1,48 @@
+$green: #81a594;
+$cream: #e6e6dc;
+$brown: #583833;
+$title: 'futura-pt', Arial, sans-serif;
+
+/* _button.scss begins */
+.button {
+	width:10em;
+	height:3em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color:$green;
+	font-family: $title;
+	font-size: 1em;
+	line-height: 3em;
+	text-align: center;
+	margin-top: 10px;
+	color: $cream;
+	display: block;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+
+.button:hover {background-color: $brown;}
+
+
+
+.button2 {
+	width:10em;
+	height:3em;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background-color:$cream;
+	font-family: $title;
+	font-size: 1em;
+	line-height: 3em;
+	text-align: center;
+	margin-top: 10px;
+	color: $brown;
+	display: block;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+
+.button2:hover {background-color: $brown; color: $cream;}
+/* _button.scss ends */
